@@ -79,14 +79,14 @@ model = model.bfloat16()  # replace model.half()
 
 ### Run in Google Colab (recommended)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/llm-inference-benchmark/blob/main/LLM_Inference_Benchmarking.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sai18022001/llm-inference-benchmark/blob/main/LLM_Inference_Benchmarking.ipynb)
 
 > Runtime → Change runtime type → **T4 GPU** → Run All (~5–8 min)
 
 ### Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/llm-inference-benchmark.git
+git clone https://github.com/sai18022001/llm-inference-benchmark.git
 cd llm-inference-benchmark
 
 pip install torch transformers accelerate matplotlib seaborn pandas
